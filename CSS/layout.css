@@ -11,6 +11,7 @@ background-color: #fff;
 color: #000;
 font-family: Verdana, Arial, Helvetica, sans-serif;
 font-size: 0.75em;
+ cursor: url('../../IMG/Volant.jpg.cur'), pointer; 
 }
 
 #header1 
