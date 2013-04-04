@@ -174,7 +174,7 @@ border-top :5px black solid;
 #poteaux
 {
 position: absolute;
-z-index:4;
+z-index:4.6;
 bottom:43%;
 right:0;
 width :99%;
@@ -184,8 +184,6 @@ border-top: 21px black double;
 height: 9%;
 background: #fff;
 -webkit-transform: skew(1deg);
-
-
 }
 
 #poteaux td
