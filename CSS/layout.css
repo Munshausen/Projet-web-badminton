@@ -23,6 +23,7 @@ height: 14em;
 background-color: #fff;
 border : 5px black solid;
 
+
 }
 
 #header2
@@ -30,7 +31,7 @@ border : 5px black solid;
 position: absolute;
 top: 0;
 left: 50%;
-width: 50%;
+width: 49%;
 height: 14em;
 background-color: #fff;
 border : 5px black solid;
@@ -39,23 +40,51 @@ border : 5px black solid;
 #bottom1
 {
 position: absolute;
-bottom: 0em;
+z-index:3;
+top:100%;
 left: 0;
 width: 50%;
 height: 14em;
 background-color: #fff;
 border : 5px black solid;
 }
+#carre_bas1
+{
+position: absolute;
+z-index: 8;
+top: 100%;
+left: 0;
+width: 10em;
+height: 14em;
+background-color: #fff;
+border-right: 5px black solid;
+}
+#carre_bas2
+{
+position: absolute;
+z-index: 8;
+top: 100%;
+right: -4.7%;
+width: 10em;
+height: 14em;
+background-color: #fff;
+background-position: left;
+border-left: 5px black solid;
+border-right: 5px black solid;
+border-bottom: 5px black solid;
+}
 
 #bottom2
 {
 position: absolute;
-bottom: 0em;
-right: 0;
-width: 50%;
+z-index:3;
+top:100%;
+left:50%;
+width: 49%;
 height: 14em;
 background-color: #fff;
-border : 5px black solid;   
+border : 5px black solid;
+
 }
 
 #couloir1 
@@ -76,7 +105,7 @@ top: 0;
 right: 0;
 width: 10em;
 height: 100%;
-background-color: #fff;
+
 border : 5px black solid;
 }
 #carre
@@ -91,4 +120,100 @@ border-left : 5px black solid;
 border-bottom : 5px black solid;
 }
 
+#court
+{
+position:absolute;
+z-index:1;
+width:100%;
+height: 400%
+}
 
+#zone1
+{
+position: absolute;
+z-index:5;
+top:0;
+left:0;
+width:50%;
+height: 47%;
+border-bottom :5px black solid;
+border-right: 5px black solid;
+}
+#zone2
+{
+position: absolute;
+z-index:5;
+top:0;
+right:0;
+width:50%;
+height: 47%;
+border-bottom :5px black solid;
+}
+#zone3
+{
+position: absolute;
+z-index:5;
+bottom:0%;
+left:0;
+width:50%;
+height: 37%;
+border-top :5px black solid;
+border-right: 5px black solid;
+}
+#zone4
+{
+position: absolute;
+z-index:5;
+bottom:0%;
+left:50%;
+width:50%;
+height: 37%;
+border-top :5px black solid;
+
+}
+#poteaux
+{
+position: absolute;
+z-index:9;
+bottom:50%;
+right:0;
+width :99%;
+border-left:10px black double ;
+border-right: 10px black double ;
+border-top: 25px black double;
+height: 7%;
+background: #fff;
+
+}
+
+#poteaux td
+{
+	border : 1px black solid;
+	height : 2.5px;
+	width : 2.5px;
+	
+}
+
+#net_top
+{
+	-webkit-transform: skew(5deg);
+	-moz-transform: skew(5deg);
+	-o-transform: skew(5deg);
+}
+#net_mid
+{
+	
+}
+#net_bot
+{
+	border-bottom:10px black double;
+	-webkit-transform: skew(5deg);
+	-moz-transform: skew(5deg);
+	-o-transform: skew(5deg);
+}
+#net_right
+{
+	-webkit-transform: skew(-5deg);
+	-moz-transform: skew(-5deg);
+	-o-transform: skew(-5deg);
+}
