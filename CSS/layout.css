@@ -90,22 +90,22 @@ border : 5px black solid;
 #couloir1 
 {
 position: absolute;
+z-index:4;
 top: 0;
 left: 0;
 width: 10em;
 height: 100%;
-background-color: #fff;
 border : 5px black solid;
 }
 
 #couloir2 
 {
 position: absolute;
+z-index:4;
 top: 0;
 right: 0;
 width: 10em;
 height: 100%;
-
 border : 5px black solid;
 }
 #carre
@@ -135,7 +135,7 @@ z-index:5;
 top:0;
 left:0;
 width:50%;
-height: 47%;
+height: 45%;
 border-bottom :5px black solid;
 border-right: 5px black solid;
 }
@@ -146,7 +146,7 @@ z-index:5;
 top:0;
 right:0;
 width:50%;
-height: 47%;
+height: 45%;
 border-bottom :5px black solid;
 }
 #zone3
@@ -156,7 +156,7 @@ z-index:5;
 bottom:0%;
 left:0;
 width:50%;
-height: 37%;
+height: 35%;
 border-top :5px black solid;
 border-right: 5px black solid;
 }
@@ -167,22 +167,24 @@ z-index:5;
 bottom:0%;
 left:50%;
 width:50%;
-height: 37%;
+height: 35%;
 border-top :5px black solid;
 
 }
 #poteaux
 {
 position: absolute;
-z-index:9;
-bottom:50%;
+z-index:4;
+bottom:43%;
 right:0;
 width :99%;
 border-left:10px black double ;
 border-right: 10px black double ;
-border-top: 25px black double;
-height: 7%;
+border-top: 21px black double;
+height: 9%;
 background: #fff;
+-webkit-transform: skew(1deg);
+
 
 }
 
@@ -192,6 +194,10 @@ background: #fff;
 	height : 2.5px;
 	width : 2.5px;
 	
+}
+#poteaux div
+{
+	opacity: 0.25;
 }
 
 #net_top
@@ -206,7 +212,7 @@ background: #fff;
 }
 #net_bot
 {
-	border-bottom:10px black double;
+	border-bottom:11px black double;
 	-webkit-transform: skew(5deg);
 	-moz-transform: skew(5deg);
 	-o-transform: skew(5deg);
