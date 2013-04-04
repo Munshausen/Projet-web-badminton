@@ -1,0 +1,60 @@
+#entete 
+{
+position: absolute;
+top: 0.2em;
+right: 0;
+}
+
+#entete li 
+{
+display: inline-block;
+margin: 0 1em;
+}
+
+#entete a 
+{
+display: block;
+width: 8em;
+height: 1.4em;
+background-color: #fff;
+color: #000;
+text-align: center;
+font-weight: bold;
+border: 1px solid gray;
+}
+
+#entete a:link,#entete a:visited 
+{
+background-color: #fff;
+color: #000;
+}
+
+#entete a:hover 
+{
+background-color: #555;
+color: #fff;
+-moz-transition-property: background-color;
+-moz-transition-duration: 0.5s;
+-moz-transition-timing-function: ease-in-out;
+}
+
+#entete ol.drop-down 
+{
+display: none;
+position: absolute;
+top: 1.4em;
+left: 1em;
+width: 8em;
+z-index: 3;
+}
+
+#entete li.liste:hover ol.drop-down 
+{
+display: block;
+}
+
+#entete ol.drop-down li 
+{
+margin: 0;
+text-align: center;
+}

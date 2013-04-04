@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Titre de la page</title>
+  <link rel="stylesheet" href="css.css">
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="script.js"></script>
+  <link rel="script" href="script.js">
+  <link rel="stylesheet" type="text/css" href="../Css/xhtml.css" />
+</head>
+<body> 
+  <header href="couloir_fond_haut">
+  	
+  </header>
+
+<nav>
+<h1 id="logo" title="Logo">Logo</h1>
+ <ol id="menu">
+  <li><a href="../Html/liste1.html">Liste1</a></li>
+  <li><a href="../Html/liste2.html">Liste2</a></li>
+ </ol>
+</nav>
+
+<nav>
+<h1 id="logo" title="Logo">Logo</h1>
+ <ol id="menu">
+  <li><a href="../Html/liste1.html">Liste1</a></li>
+  <li><a href="../Html/liste2.html">Liste2</a></li>
+ </ol>
+</nav>
+
+</div>	
+</body>
+</html>
